@@ -1,0 +1,20 @@
+.portfolio{
+    background-color: white;
+    overflow: hidden;
+    
+    .wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 50%;
+        height: 60%;
+        margin: auto;
+        margin-top: 7%;
+        //margin-bottom: 15%;
+        
+        
+    }
+    
+
+}
