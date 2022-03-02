@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .portfolio{
     background-color: white;
     overflow: hidden;
@@ -7,11 +9,28 @@
         align-items: center;
         flex-direction: column;
         border: 2px solid black;
-        width: 50%;
-        height: 60%;
+        width: 60%;
+        height: 70%;
         margin: auto;
         margin-top: 7%;
         //margin-bottom: 15%;
+        background-color: wheat;
+
+        .heading{
+            margin-top: 10%;
+            margin-bottom: 7%;
+            font-size:30px;
+            font-weight: 700;
+            color: $mainColor;
+            
+        }
+
+        .body{
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 29px;
+            color: crimson;
+        }
         
         
     }
