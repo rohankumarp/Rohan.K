@@ -8,18 +8,21 @@
         overflow: hidden;
 
         .imgContainer{
-            width: 700px;
-            height: 700px ;
+            width: 500px;
+            height: 500px ;
             background-color: aliceblue;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content:center ;
+            margin-left: 50px;
+            margin-top: 50px;
             
 
             img{
                 height: 100%;
             }
+            
         }
     }
     .right {
@@ -73,7 +76,7 @@
 
         .buttonposi{
             bottom: 20px;
-            right: 20px;
+            left: 20px;
             position: absolute;
             color: purple;
             background-color: wheat;
