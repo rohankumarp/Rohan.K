@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rohan.K/static/css/main.0f7d7aff.css",
+    "main.js": "/Rohan.K/static/js/main.2e4dd482.js",
+    "index.html": "/Rohan.K/index.html",
+    "main.0f7d7aff.css.map": "/Rohan.K/static/css/main.0f7d7aff.css.map",
+    "main.2e4dd482.js.map": "/Rohan.K/static/js/main.2e4dd482.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7d7aff.css",
+    "static/js/main.2e4dd482.js"
+  ]
+}
