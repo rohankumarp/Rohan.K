@@ -1,3 +1,144 @@
+@import "../../global.scss";
+
 .contact{
-    background-color: lightcoral;
+    background-color: black;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
+    
+    
+
+    .left{
+        flex: 1;
+        overflow: hidden;
+
+        @include mobile{
+            display: none;
+        }
+        
+
+        img{
+            height: 100%;
+            margin-left: 40px;
+
+            
+        }
+        
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+
+        p{
+            font-size: 40px;
+            color: white;
+            font-family: 'Barlow Condensed', sans-serif;
+            text-decoration: underline;
+            text-decoration-color: crimson;
+        }
+
+        form{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            
+            
+            input{
+                width: 300px;
+                height: 30px;
+                font-size: 15px;
+                margin-bottom: 3px;
+                background-color: black;
+                color: white;
+                border: 3px solid white;
+                border-radius: 4px;
+
+                @include mobile{
+                    width: 250px;
+                    height: 25px;
+                    margin-bottom: -60px;
+                }
+
+            }
+
+            textarea{
+
+                width: 300px;
+                height: 200px;
+                font-size: 15px;
+                background-color: black;
+                color: white;
+                border: 3px solid white;
+                border-radius: 4px;
+
+                @include mobile{
+                    width: 250px;
+                    height: 100px;
+                }
+                
+
+            }
+            button{
+                display: block;
+                width: 170px;
+                height: 40px;
+                font-size: 18px;
+                text-decoration: none;
+                color: black;
+                border-radius: 10px;
+                border: 2px solid #333;
+                text-align: center;
+                position: relative;
+                transition: all .35s;
+                font-weight: 700;
+                cursor: pointer;
+            
+                span{
+                    position: relative;
+                    z-index: 1;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            button:after{
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 0;
+                height: 100%;
+                background: #ff003b;
+                transition: all .35s;
+            }
+            button:hover{
+                color: #fff;
+                
+            }
+            button:hover:after{
+                width: 100%;
+                color: black;
+            }
+
+            .fancybutton{
+                .replytext{
+                    color: green;
+                    margin-top: 10px;
+                }
+            }
+
+
+        }
+    }
 }
